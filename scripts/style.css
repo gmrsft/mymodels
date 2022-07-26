@@ -1,134 +1,116 @@
-body{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;  
-    
-    background: linear-gradient(180deg,rgba(227,255,248,0) 82.08%, rgba(227,255,248,0.38) 100%);
+body {
+  margin: 0;
 
-    height: 100vh; /*vh viewport height, ocupe toda a parte visivel da pagina em altura, nesse caso 100 pedacinhos da pagina.... mas poderia ser 100vw Weight toda a largura ou parte dela */
-}
-.page{
-   width: 1000px;
-   margin: 0px auto;
-   padding-top: 65px;  
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 55px;
-    font-family: 'Mulish', sans-serif;
-    
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    gap: 48px;
-    margin: 0;
-    padding: 0;
-    font-family: 'Mulish', sans-serif;
-    
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+.list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #1f1534;
+a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+.list .item a {
     opacity: 0.5;
-    
 }
 
-ul li a:hover{
-    font-weight: bold;
-    opacity: 1;
+.list .item a:hover {
+  font-weight: bold;
+  opacity: 1;
 }
 
-.logo{
-    width: 150px;
-    height: 150px;
-    margin-left: -20px;
-    margin-top: -90px;   
-     
-}
-.img2{
-    width: 200px;
-    height: 200px;    
-    border-radius: 850rem;
-         
+.list,
+.title {
+  font-family: "Mulish", sans-serif;
 }
 
-h1{
-    font-size: 49px;
-    line-height: 56px;
-    color: #000;
-    font-weight: normal;
-
-    width: 490px;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-h1 span{
-    color:  #89c5cc;
-    font-weight: bold;
+.title {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+
+  font-weight: normal;
+
+  width: 490px;
 }
 
-section p{
-    font-size: 14px;
-    line-height: 28px;
-    color: #7d7987;
-    width: 430px;
-
-    margin: 40px 0;
-}
-section p strong{
-    color: black;
-}
-button{
-    text-transform: uppercase;
-    color: white;    
-    font-family: 'Open Sans', sans-serif;
-
-    background-color: rgba(5, 141, 5, 0.692);
-    border: 0;
-    border-color: transparent;   
-    border-radius:  15rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 32px 15px;
-    gap: 10px; /*espeço entre elementos*/
-   
-    cursor:grabbing;
-}
-button:hover{
-    background:#5ab7c2;
+.title span {
+  color: #89c5cc;
+  font-weight: bold;
 }
 
-footer{
-    font-size: 14px;
-    line-height: 28px;
-    text-align: center;
-    margin-top: 40px;
+.subtitle {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+
+  margin: 40px 0;
 }
 
-footer a{
-    font-weight: bold;
-    text-decoration: none;
-    color: #1f1534;
+.button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
 }
 
-footer a:hover{
-    color: #89c5cc;
+.footer {
+  font-size: 14px;
+  line-height: 28px;
+
+  text-align: center;
+
+  margin-top: 80px;
 }
 
-#balls{
+.footer a {
+  font-weight: bold;
+}
+
+#balls {
     position: fixed;
     bottom: 0;
     right: 0;
