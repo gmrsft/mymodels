@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;  
+    
+    background: linear-gradient(180deg,rgba(227,255,248,0) 82.08%, rgba(227,255,248,0.38) 100%);
+
+    height: 100vh; /*vh viewport height, ocupe toda a parte visivel da pagina em altura, nesse caso 100 pedacinhos da pagina.... mas poderia ser 100vw Weight toda a largura ou parte dela */
+}
+.page{
+   width: 1000px;
+   margin: 0px auto;
+   padding-top: 65px;  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1f1534;
+    opacity: 0.5;
+    
+}
+
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: -20px;
+    margin-top: -90px;   
+     
+}
+.img2{
+    width: 200px;
+    height: 200px;    
+    border-radius: 850rem;
+         
+}
+
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    color: #000;
+    font-weight: normal;
+
+    width: 490px;
+}
+
+h1 span{
+    color:  #89c5cc;
+    font-weight: bold;
+}
+
+section p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #7d7987;
+    width: 430px;
+
+    margin: 40px 0;
+}
+section p strong{
+    color: black;
+}
+button{
+    text-transform: uppercase;
+    color: white;    
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: rgba(5, 141, 5, 0.692);
+    border: 0;
+    border-color: transparent;   
+    border-radius:  15rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px 15px;
+    gap: 10px; /*espeço entre elementos*/
+   
+    cursor:grabbing;
+}
+button:hover{
+    background:#5ab7c2;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #1f1534;
+}
+
+footer a:hover{
+    color: #89c5cc;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
